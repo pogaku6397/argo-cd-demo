@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: rancher/hello-world
+        image: rancher/hello-world:v0.1.0
         ports:
         - containerPort: 80
